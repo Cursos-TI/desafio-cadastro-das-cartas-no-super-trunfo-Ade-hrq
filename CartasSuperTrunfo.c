@@ -82,6 +82,30 @@ int main() {
     printf("\n- Densidade populacional: %d\n", densidade2);
     printf("\n- PIB per capita: %d\n", pibfinal2);
 
+    //Comparação dos valores 
+
+    int compare1 = densidade < densidade2;
+    int rpib = pibfinal > pibfinal2;
+
+    printf("\n** CARTA VENCEDORA **\n");
+
+if  (densidade < densidade2){
+    printf("CARTA 01 VENCEDORA\n");
+} else {
+    printf("CARTA 02 VENCEDORA\n");
+} if (pibfinal > pibfinal2){
+    printf("CARTA 01 VENCEDORA\n");
+} else {
+    printf("CARTA 02 VENCEDORA\n");
+} if (densidade = densidade2, pibfinal = pibfinal2){
+    printf("HOUVE UM EMPATE\n");
+}
+
+
+    printf("Menor densidade: %d\n", compare1);
+    printf("Maior PIB: %d\n",rpib);
+
+
     return 0;
     
     }
